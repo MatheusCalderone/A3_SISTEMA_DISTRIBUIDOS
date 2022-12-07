@@ -1,0 +1,22 @@
+Boa noite professor, segue um CRUD realizado no MySQL referente a nota
+que comentei no outro TXT
+
+CREATE database blackjack;
+
+create table blackjack(
+id int not null auto_increment primary key,
+jogador varchar(40),
+pontos int)
+
+* Insert:
+INSERT INTO blackjack VALUES ('Josue', 40);
+
+* Select:
+SELECT * FROM jogador;
+
+* Update:
+UPDATE jogador SET jogador = 'Arnaldo' WHERE jogador = 'Josue';
+
+* Delete:
+DELETE FROM jogador WHERE jogador = 'Arnaldo';
+
